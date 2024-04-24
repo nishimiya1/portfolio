@@ -1,0 +1,46 @@
+@import url(https://db.onlinewebfonts.com/c/7bb5c8feb64e9d371178e66b1101775d?family=Power+Grotesk);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  border: 0 solid;
+}
+@font-face {
+  font-family: "Power Grotesk";
+  src: url("https://db.onlinewebfonts.com/t/7bb5c8feb64e9d371178e66b1101775d.eot");
+  src: url("https://db.onlinewebfonts.com/t/7bb5c8feb64e9d371178e66b1101775d.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/7bb5c8feb64e9d371178e66b1101775d.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/7bb5c8feb64e9d371178e66b1101775d.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/7bb5c8feb64e9d371178e66b1101775d.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/7bb5c8feb64e9d371178e66b1101775d.svg#Power Grotesk")
+      format("svg");
+}
+
+html,
+html * {
+  pointer-events: none;
+  user-select: none;
+}
+html [data-project-slider] a,
+html [data-smooth-scroll],
+html footer a,
+html main a,
+html nav a,
+html video {
+  pointer-events: auto;
+}
+div {
+  display: block;
+}
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Power Grotesk";
+}

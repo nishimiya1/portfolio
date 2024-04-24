@@ -1,0 +1,155 @@
+.container-full {
+  max-width: 100%;
+}
+
+.container-full {
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(9, minmax(0, 1fr));
+  gap: 22px;
+}
+.text-massive {
+  font-size: clamp(60px, 8vw, 102px);
+  line-height: 1;
+  letter-spacing: 0.02em;
+}
+.container {
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  max-width: 1280px;
+}
+.caps {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+.cl1 {
+  grid-column: span 1 / span 1;
+}
+.padt3 {
+  padding-top: 300px;
+}
+.cols6 {
+  grid-column: span 6 / span 6;
+}
+.cols3 {
+  grid-column: span 3 / span 3;
+}
+.pb60 {
+  padding-bottom: 60px;
+}
+.-mx25 {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.pb230 {
+  padding-bottom: 230px;
+}
+.cols5 {
+  grid-column: span 5 / span 5;
+}
+.text-headline {
+  font-size: 40px;
+}
+
+@media (max-width: 767px) {
+  .body {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-full {
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+}
+@media (max-width: 767px) {
+  .grid-layout {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 66px;
+  }
+}
+@media (max-width: 991px) {
+  .lghidden {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .md_min\:hidden {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .cl1 {
+    grid-column: span 1 / span 1;
+  }
+}
+@media (max-width: 767px) {
+  .mdtext {
+    font-size: 36px;
+  }
+}
+@media (max-width: 767px) {
+  .mdpt {
+    padding-top: 120px;
+  }
+}
+@media (max-width: 767px) {
+  .mdcols {
+    grid-column: span 1 / span 1;
+  }
+}
+@media (max-width: 767px) {
+  .mdd {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .lgd {
+    position: relative;
+  }
+}
+@media (max-width: 767px) {
+  .md-mx {
+    margin-left: -11px;
+    margin-right: -11px;
+  }
+}
+@media (max-width: 767px) {
+  .mdpb {
+    padding-bottom: 11px;
+  }
+}
+@media (max-width: 767px) {
+  .mdgap0 {
+    gap: 0;
+  }
+}
+@media (max-width: 767px) {
+  .colsfull {
+    grid-column: 1/-1;
+  }
+}
+@media (max-width: 767px) {
+  .text-headline {
+    font-size: 20px;
+  }
+}

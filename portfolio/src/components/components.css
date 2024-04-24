@@ -1,0 +1,177 @@
+@import url(https://db.onlinewebfonts.com/c/8faf2fdb17225f6cc73af2db44dddc9c?family=Yapari);
+@font-face {
+  font-family: "Yapari";
+  src: url("https://db.onlinewebfonts.com/t/8faf2fdb17225f6cc73af2db44dddc9c.eot");
+  src: url("https://db.onlinewebfonts.com/t/8faf2fdb17225f6cc73af2db44dddc9c.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/8faf2fdb17225f6cc73af2db44dddc9c.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/8faf2fdb17225f6cc73af2db44dddc9c.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/8faf2fdb17225f6cc73af2db44dddc9c.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/8faf2fdb17225f6cc73af2db44dddc9c.svg#Yapari")
+      format("svg");
+}
+.gap-gr1 {
+  gap: 20px;
+}
+.p-md1 {
+  padding: 20px;
+}
+.max-w-container {
+  max-width: 2160px;
+}
+.text-logo {
+  font-size: 20px;
+}
+.tracking-logo {
+  letter-spacing: 0.352px;
+}
+.left-md1 {
+  left: 20px;
+}
+.top-md1 {
+  top: 20px;
+}
+.pl-xs0 {
+  padding-left: 2px;
+}
+.right-md1 {
+  right: 20px;
+}
+.bottom-md1 {
+  bottom: 20px;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.text-secondary {
+  color: currentColor;
+}
+.group-not-active {
+  opacity: 0;
+}
+.transition-trop {
+  transition-duration: 0.15s;
+  transition-property: transform, opacity;
+}
+.link {
+  text-decoration-line: underline;
+  transition-duration: 0.5s;
+  transition-property: opacity;
+}
+
+.logo {
+  font-family: "Yapari";
+}
+.visible {
+  opacity: 1;
+}
+
+.hidden {
+  opacity: 0;
+}
+html.is-menu-active .menu-active\:pointer-events-auto {
+  pointer-events: auto;
+}
+
+html.is-menu-active .menu-active\:rotate-45 {
+  rotate: 45deg;
+}
+html.is-menu-active .menu-active\:translate-y-\[4px\] {
+  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+  -moz-transform: translateY(4px);
+  -ms-transform: translateY(4px);
+  -o-transform: translateY(4px);
+}
+html.is-menu-active .menu-active\:-rotate-45 {
+  rotate: -45deg;
+}
+html.is-menu-active .menu-active\:translate-y-\[2px\] {
+  transform: translateX(2px);
+  -webkit-transform: translateX(2px);
+  -moz-transform: translateX(2px);
+  -ms-transform: translateX(2px);
+  -o-transform: translateX(2px);
+}
+html.is-menu-active .menu-active\:translate-x-\[2px\] {
+  transform: translateX(2px);
+  -webkit-transform: translateX(2px);
+  -moz-transform: translateX(2px);
+  -ms-transform: translateX(2px);
+  -o-transform: translateX(2px);
+}
+html.is-menu-active .menu-active\:mt-0 {
+  margin-top: 0;
+}
+.text-x14 {
+  font-size: 120px;
+}
+.group:not(.is-active) .group-not-active\:opacity-0 {
+  opacity: 0;
+}
+.group:not(.is-active) .group-not-active\:translate-x-\[25\%\] {
+  transform: translateX(25%);
+  -webkit-transform: translateX(25%);
+  -moz-transform: translateX(25%);
+  -ms-transform: translateX(25%);
+  -o-transform: translateX(25%);
+}
+html.is-menu-active .menu-active\:opacity-100 {
+  opacity: 1;
+}
+.gap-x-xs2 {
+  column-gap: 8px;
+}
+@media only screen and (min-width: 320px) {
+  .p-md1 {
+    padding: calc(17.64706px + 0.73526vw);
+  }
+}
+@media only screen and (min-width: 320px) {
+  .text-logo {
+    font-size: calc(19.43529px + 0.17647vw);
+  }
+}
+@media only screen and (min-width: 320px) {
+  .-tracking-logo {
+    letter-spacing: calc(-0.32847px - 0.00735vw);
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .text-x14 {
+    font-size: 120px;
+  }
+}
+@media (min-width: 360px) {
+  .xs1\:mr-md1 {
+    margin-right: 20px;
+  }
+}
+@media (min-width: 360px) {
+  @media only screen and (min-width: 320px) {
+    .xs1\:mr-md1 {
+      margin-right: calc(17.64706px + 0.73529vw);
+    }
+  }
+}
+@media (min-width: 450px) {
+  .sm1\:mr-xl1 {
+    margin-right: 48px;
+  }
+}
+@media (min-width: 450px) {
+  @media only screen and (min-width: 320px) {
+    .sm1\:mr-xl1 {
+      margin-right: calc(31.05882px + 5.29412vw);
+    }
+  }
+}
+@media only screen and (min-width: 320px) {
+  .gap-x-xs2 {
+    column-gap: calc(7.05882px + 0.29412vw);
+  }
+}
