@@ -44,14 +44,14 @@ const Loader: React.FC = () => {
           translateY: [-100, 0],
           easing: "easeOutExpo",
           duration: 1500,
-          delay: (el: HTMLElement, i: number) => 30 * i,
+          delay: (_el: HTMLElement, i: number) => 30 * i,
         })
         .add({
           targets: ".ml16 .letter",
           translateY: [0, 100],
           easing: "easeOutExpo",
           duration: 3000,
-          delay: (el: HTMLElement, i: number) => 30 * i + 2000,
+          delay: (_el: HTMLElement, i: number) => 30 * i + 2000,
         });
 
       gsap.to(".pre-loader", {
