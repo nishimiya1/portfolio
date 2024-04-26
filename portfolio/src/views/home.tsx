@@ -96,7 +96,7 @@ function Home() {
           <div className="row pb3 pt1">
             <div className="col c12">
               <h2 className="uppercase font-medium sans--xs">
-                Select Projects
+                SElect Projects
               </h2>
             </div>
           </div>
