@@ -1,7 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import About from "../views/about";
-
 import ProductListing from "../views/ProductListing";
 import SoilAnalysis from "../views/SoilAnalysis";
 import Streami from "../views/Streami";
