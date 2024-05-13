@@ -1,5 +1,8 @@
 import NavBar from "../components/navigationBar/NavBar";
 import Footer from "../components/footer";
+import StreamiLogo from "../assets/Streami.png";
+import ProductListingLogo from "../assets/productListing.png";
+import SoilAnalysisLogo from "../assets/SoilAnalysis.png";
 import { Link } from "react-router-dom";
 import "../views/home.css";
 
@@ -69,21 +72,21 @@ function Home() {
       to: "/ProductListing",
       title: "Product Listing",
       description: "Personal Project",
-      imageSrc: "../src/assets/productListing.png",
+      imageSrc: ProductListingLogo,
       alt: "Product Listing",
     },
     {
       to: "/SoilAnalysis",
       title: "Soil Analysis Monitoring System with Internet of Things",
       description: "Capstone Project",
-      imageSrc: "../src/assets/SoilAnalysis.png",
+      imageSrc: SoilAnalysisLogo,
       alt: "Soil Analysis Monitoring System with IoT",
     },
     {
       to: "/Streami",
       title: "Streami",
       description: "Personal Project",
-      imageSrc: "../src/assets/Streami.png",
+      imageSrc: StreamiLogo,
       alt: "Streami",
     },
   ];
