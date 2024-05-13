@@ -2,7 +2,7 @@ import { useState } from "react";
 import "../components.css";
 import { Link } from "react-router-dom";
 import { PictureAsPdfRounded } from "@mui/icons-material";
-
+import CurriculumVitae from "../../assets/Gerald Angelo Diongzon.pdf";
 export function Logo() {
   return (
     <div className="col-span-1">
@@ -99,7 +99,7 @@ function CVLink() {
             <div className="flex gap-2">
               <a
                 className="link no-underline"
-                href="src/assets/curriculumVitae.pdf"
+                href={CurriculumVitae}
                 target="_blank"
                 aria-label="Github"
                 rel="noopener noreferrer"
