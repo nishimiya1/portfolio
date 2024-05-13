@@ -2,6 +2,7 @@ import SoilAnalysisVideo from "../assets/SoilAnalysis.mp4";
 import "../views/home.css";
 import { Logo } from "../components/navigationBar/NavBar";
 import { SectionFooter } from "./ProductListing";
+
 function SourceCodeComponent() {
   return (
     <div className="mb5">
@@ -42,7 +43,7 @@ function TechUsedComponent() {
 function PresentationLink() {
   return (
     <a
-      href="https://github.com/nishimiya1/Soil-Analysis-Monitoring-System-With-Internet-Of-Things-Application"
+      href="https://docs.google.com/presentation/d/1GaAT4HFxER0tJHVB0Ivd-QJpbCRpKIIDQkm9d8JNNOw/edit?usp=sharinghttps://docs.google.com/presentation/d/e/2PACX-1vRzSUdPKVHT-wzWVRS6VowPrP2KnunyriwIe0qVJXDnJvdS-AS4sNbO8SIZPEh47G73UtLZ05blNfEA/pub?start=false&loop=false&delayms=3000"
       className="mb2 sans--xs font-bold uppercase underline no-focus link--opacity"
       title="Soil Analysis Monitoring System with Internet of Things"
       target="_blank"
