@@ -68,7 +68,7 @@ function SectionSummary() {
               developer, creating the UI and functionality of a mobile app. This
               involved integrating sensors with a microprocessor to transfer
               data to a cloud database. Additionally, I gained experience as a
-              Data Encoder during a high school internship.
+              Data Encoder during a senior-high school internship.
             </p>
             <p className="mb-7 last:mb-0">
               During the capstone project, I gained skills in Java, Python,
