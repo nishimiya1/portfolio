@@ -128,7 +128,7 @@ export function SectionFooter() {
                 {" "}
                 Instagram{" "}
               </a>
-              . your feedback is highly appreciated.
+              . Your feedback is highly appreciated.
             </p>
           </div>
         </div>
